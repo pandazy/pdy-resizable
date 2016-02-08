@@ -1,0 +1,31 @@
+#main-content {
+  width: 200px;
+  height: 300px;
+}
+
+.resizable {
+  border: 1px solid #ccc;
+  position: relative;
+  &::before {
+    position: absolute;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &.resize-left, &.resize-right {
+    cursor: ew-resize;
+  }
+  &.resize-top, &.resize-bottom {
+    cursor: ns-resize;
+  }
+  &.resize-top.resize-left, &.resize-right.resize-bottom {
+    cursor: nwse-resize;
+  }
+  &.resize-top.resize-right, &.resize-bottom.resize-left {
+    cursor: nesw-resize;
+  }
+}
