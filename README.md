@@ -29,6 +29,12 @@ All compiled code will be in \<rootDir\>/build/dev
 ```cmd
 > npm test
 ```
+#### something about test cases
+* used [Jest](http://facebook.github.io/jest/) with its [Jasmine 2](http://jasmine.github.io/2.0/introduction.html) support
+* added a customized matcher [toBeImmutable](https://github.com/pandazy/pdy-resizable/blob/master/test_lib/immutableMatcher.js)
+* in [test/lib](https://github.com/pandazy/pdy-resizable/blob/master/test_lib/index.js) there are some methods used to enhance test cases
+  such as adding description to make it more meaningful and check expectation amount to make sure no feature is missed.
+
 ## Source code
 All source code is in [/src/](https://github.com/pandazy/pdy-resizable/tree/master/src/)
 
