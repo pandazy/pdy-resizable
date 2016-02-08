@@ -30,5 +30,5 @@ All compiled code will be in \<rootDir\>/build/dev
 > npm test
 ```
 ## Source code
-All source code is in /src/
+All source code is in [/src/](https://github.com/pandazy/pdy-resizable/tree/master/src/)
 
