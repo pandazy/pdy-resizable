@@ -11,7 +11,7 @@ because a handle element with absolute position introduces redundant semantics a
   And in this case the element must has relative position 
 * Boundary calculation based on mouse coordinates and element rectangles is complex
 
-[Check online example on jsfiddle](https://jsfiddle.net/pandazy/orLdtv0g/)
+[Check online example on jsfiddle](https://jsfiddle.net/pandazy/tmwnvran/)
 
 
 ## Setup
