@@ -7,8 +7,8 @@ because a handle element with absolute position introduces redundant semantics a
 
 ## Known issues of this implementation
 * The browser must support HTML5/CSS3, to name a few: transform matrix, getComputedStyle
-* In order to support the resizing movement outside the rectangle of a resized element, a absolute-positioned pseudo-element must be used. 
-  And in this case the element must has relative position 
+* In order to support the resizing movement outside the rectangle of a resized element, an absolute-positioned pseudo-element must be used. 
+  And in this case the element must have relative position 
 * Boundary calculation based on mouse coordinates and element rectangles is complex
 
 [Check online example on jsfiddle](https://jsfiddle.net/pandazy/tmwnvran/)
